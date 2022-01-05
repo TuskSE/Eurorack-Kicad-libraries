@@ -1,0 +1,9 @@
+(module "9mm alpha jack hole" (layer F.Cu) (tedit 5CC36F14)
+  (fp_text reference "" (at -0.25 5.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "9mm alpha jack hole" (at 0 -4.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 7.2 7.2) (drill 7.2) (layers *.Cu *.Mask))
+)

@@ -1,0 +1,14 @@
+(module Eurorack_LED_hole (layer F.Cu) (tedit 61391FD4)
+  (fp_text reference Ref** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "Eurorack LED hole" (at 0 -2.75) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 3.3 3.3) (drill 3.3) (layers *.Cu *.Mask))
+  (model "G:/Musical Electronics/Kicad libraries/eurocad-master/Eurocad.pretty/LED 3mm Red.step"
+    (offset (xyz 0 0 -9))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)
